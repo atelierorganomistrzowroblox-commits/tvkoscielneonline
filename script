@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Atelier Organmistrzów</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    background-color: #ffffff;
+    color: #000;
+  }
+
+  /* GÓRNY PASEK */
+  header {
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  header img {
+    height: 60px;
+  }
+
+  /* UKŁAD 2 KOLUMN */
+  .container {
+    display: flex;
+    padding: 60px;
+    gap: 40px;
+  }
+
+  .left img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .right h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin: 0;
+    color: #c78960;
+  }
+
+  .right h2 {
+    margin-top: -10px;
+    font-family: "Dancing Script", cursive;
+    font-size: 48px;
+    color: #000;
+  }
+
+  /* KONTAKT */
+  .contact {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+  }
+
+  .contact img {
+    width: 40px;
+  }
+
+  /* DÓŁ STRONY */
+  .footertext {
+    padding: 40px 60px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+</style>
+</head>
+
+
+<body>
+
+<header>
+  <!-- PODMIEŃ LOGO JEŚLI CHCESZ -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Organ_icon.svg/512px-Organ_icon.svg.png" alt="Logo">
+</header>
+
+<div class="container">
+
+  <div class="left">
+    <!-- PODMIEŃ ZDJĘCIE NA SWOJE -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Organ_keyboard.jpg" alt="Zdjęcie">
+  </div>
+
+  <div class="right">
+    <h1>Atelier<br>Organmistrzów</h1>
+    <h2>Kieczyński Zieliński</h2>
+
+    <div class="contact">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg">
+      <div>
+        <b>Kontakt:</b><br>
+        atelierorganomistrzowroblox@gmail.com
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="footertext">
+  Strona jest w budowie. Wkrótce znajdzie się tutaj więcej informacji na temat Atelier.  
+  Tymczasem zapraszamy do śledzenia aktualności.
+</div>
+
+</body>
+</html>
